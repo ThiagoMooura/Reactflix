@@ -1,0 +1,31 @@
+body{
+    padding-bottom: 1rem;
+    width: 100%;
+    height: auto;
+}
+.filme-info{
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;   
+    margin: auto; 
+}
+.filme-info img{
+    border-radius: 3.5rem;
+}
+.filme-info h1{
+    margin: 1rem 0;
+}
+.filme-info h3{
+    margin: 0.7rem 0;
+}
+@media screen and (max-width:945px){
+    .filme-info{
+        max-width: 90vw;
+    }
+}
+@media screen and (max-width:375px){
+    .filme-info h1{
+        font-size: 1.7em;
+    }
+
+}
